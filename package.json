@@ -1,0 +1,26 @@
+{
+  "name": "jio-node-basic",
+  "version": "1.0.0",
+  "description": "basics",
+  "main": "fetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon fetch.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.6.0",
+    "node-statsd": "^0.1.1",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "response-time": "^2.3.2"
+  }
+}

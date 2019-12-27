@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video List</title>
+</head>
+<body>
+    <h2>Go to the respective routes for details</h2>
+    <nav>
+        <ul>
+            <li> <a href="/new/user">New User</a> </li>
+            <li> <a href="/node/relayer">Node Relayer</a> </li>
+            <li> <a href="/video/list">Video List</a> </li>
+            <li> <a href="/resolve/claims">Resolve Claims</a> </li>
+        </ul>
+    </nav>
+  <div>
+    <div>
+      <h3>Time(ms): <%= result.time%></h3>
+      <h3>Status: <%= result.status%></h3>
+      <h3>Uris:</h3> <p><%= result.data%> </p>
+    </div>
+  </div>
+</body>
+</html>
